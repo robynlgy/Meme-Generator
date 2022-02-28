@@ -1,0 +1,62 @@
+img{
+    max-width:100%;
+    /* object-fit: contain; */
+}
+
+.meme {
+    position:relative;
+    justify-content: center;
+}
+
+
+.wrap_top_text{
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:5px;
+    width:98%;
+}
+.top_text{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:2.5em;
+}
+
+
+.wrap_bottom_text{
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    bottom:5px;
+    width:98%;
+}
+.bottom_text{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:2.5em;
+}
+
+.del{
+    position:absolute;
+    top:35%;
+    left:42%;
+    color:white;
+    font-size:6em;
+;}
+
+.meme:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    filter: brightness(50%);
+}
+
+
+@media(min-width:1400px){
+    .bottom_text{font-size:3.5rem}
+    .top_text{font-size:3.5rem}
+}
