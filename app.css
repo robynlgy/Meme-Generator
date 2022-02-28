@@ -1,13 +1,11 @@
 img{
-    max-width:100%;
-    /* object-fit: contain; */
+    width:100%;
 }
 
 .meme {
     position:relative;
     justify-content: center;
 }
-
 
 .wrap_top_text{
     display:flex;
